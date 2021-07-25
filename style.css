@@ -1,0 +1,134 @@
+marquee{
+    color:white;
+    background-color: rgba(206, 89, 89,0.815);
+    font-size: 30px;
+    padding: 0.5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("1087.jpg");
+    background-repeat: no-repeat;
+    background-size: 1700px 835px;
+}
+a{
+    color:rgb(157, 174, 197);
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.left{
+    
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    background-color:rgba(8, 8, 8, 0.479);
+    height: 3vh;
+    width: 40vw;
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+
+}
+.textcolor1{
+    color: white;   
+}
+.textcolor{
+    color:yellow;
+}
+h1{
+    text-shadow:5px 5px rgba(233, 44, 11, 0.904);
+}
+.mid{
+    display: flex;
+    justify-content:center;
+    font-size:xx-large;
+    font-family:cursive;
+    height: 5px;
+    width: 35vw;
+}
+.midimg{
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border:5px solid black;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 3vh;
+    width: 40vw;
+    background-color:rgba(8, 8, 8, 0.479);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+}
+.btn{
+    background-color:lightblue;
+    padding-left: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}    
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: 37%;
+    width: 25vw;
+    height: 40vh;
+    border:5px solid lightblue;
+
+}
+h2{
+    text-align:center;
+    background-color:rgba(206, 89, 89,0.815);
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family:cursive;
+    padding: 3px;
+}
+.container button{
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 125px;
+    
+}
+
+.form-group input{
+    font-family: 'Trebuchet MS';
+    text-align:center;
+    padding:5px;
+    width:300px;
+    margin-left: 55px;
+    margin-top: 5px
+}
+
+
+.btn:hover {
+    background-color: rgb(20, 30, 200);
+}
+
+footer{
+    font-size:120%;
+    font-family:monospace;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: darkgray;
+    padding:3px;
+    margin-top: 4%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
