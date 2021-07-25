@@ -7,11 +7,10 @@ marquee{
     
 }
 body{
-    margin: 0px;
-    padding: 0px;
     background-image: url("1087.jpg");
     background-repeat: no-repeat;
-    background-size: 1700px 835px;
+    background-position: center;
+    background-size: cover;
 }
 a{
     color:rgb(157, 174, 197);
@@ -53,6 +52,7 @@ h1{
     font-family:cursive;
     height: 5px;
     width: 35vw;
+   
 }
 .midimg{
     display: flex; 
